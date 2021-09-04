@@ -27,7 +27,7 @@ function validateBillAndCashAmount(){
                 
                 const cashamnt=Number(cashGiven.value);
                 
-                if(cashamnt>billamnt)//cash given must be greater than or equal to bill amount
+                if(cashamnt>=billamnt)//cash given must be greater than or equal to bill amount
                 {
                     const amountToBeReturned = cashamnt - billamnt;
 
