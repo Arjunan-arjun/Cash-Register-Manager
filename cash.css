@@ -82,9 +82,20 @@ td, th{
     font-size: larger;
 }
 
+#No-Of-Notes{
+    color: darkblue;
+    background-color: lightskyblue;
+
+}
+
 .no-of-notes{
     color: darkblue;
     background-color: lightskyblue;
+}
+
+.available-notes{
+    color: darkgreen;
+    background-color: lightgreen;
 }
 
 
