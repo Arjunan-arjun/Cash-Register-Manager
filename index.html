@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./cash.css">
+    <title>Cash Register Manager</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="heading">Cash Register Manager</h1>
+
+        <br>
+
+        <p class="description">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+        
+        <br><br>
+
+    
+        <div class="form-for-billamount">
+            <label for="bill-amount">Bill Amount:</label>
+            <input type="text" id="bill-amount" placeholder="Enter the bill amount"  required/>
+        </div>
+        <div class="form-for-cashgiven">
+            <label for="cash-given">Cash Given:</label>
+            <input type="text" id="cash-given" placeholder="Enter the cash given" required/>
+            <br><br>
+            <button id="check-button">Check Balance</button>
+            <br><br>
+        </div>
+        
+        <p id="error-message"></p>
+
+        <div class="returnamnt">
+
+            <table class="change-table">
+
+                <h2>Return Change</caption></h2>
+                
+
+                <tr>
+                    <th>No Of Notes</th>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                </tr>
+
+                <tr>
+                    <th>Available Notes</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <script src="./cash.js"></script>
+</body>
+</html>
