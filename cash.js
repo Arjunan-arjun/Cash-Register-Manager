@@ -32,6 +32,7 @@ function validateBillAndCashAmount(){
                     const amountToBeReturned = cashamnt - billamnt;
 
                     //to call the calculate change function and print the balance amount
+                    showMessage("The Balance amount is "+amountToBeReturned);
                     calculateChange(amountToBeReturned);
                 }
                 else
